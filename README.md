@@ -4,6 +4,6 @@ This LaTeX template for the Florida International University (FIU) biology PhD d
 
 One important note for professional printing - If you use pdf format figures, not all of the fonts are embedded in the final pdf. If the printer complains about this, use the following line to embed the missing fonts:
 
-gs -dNOPAUSE -dBATCH -sDEVICE=pdfwrite -dPDFSETTINGS=/prepress -dEmbedAllFonts=true -sOutputFile=<my_file>_embedded.pdf -f <my_file>.pdf
+``gs -dNOPAUSE -dBATCH -sDEVICE=pdfwrite -dPDFSETTINGS=/prepress -dEmbedAllFonts=true -sOutputFile=<my_file>_embedded.pdf -f <my_file>.pdf``
 
 where <my_file> is the name of your file and "<my_file>.pdf" is the output from pdflatex
