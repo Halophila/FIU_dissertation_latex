@@ -50,4 +50,6 @@ This format uses "natbib" for references. This allows for different types of in-
 There will probably be minor problems with the bibliography. Fix these in the .bib files. But you have to re-run the bibtex file then re-run the tex file before you see changes. For example, a problem in the chapter 2 bibliography is corrected by fixing the problem in the bib file, then running "bibtex chap2" then "pdflatex thesis".
 
 All the figures are divided by chapters in the figures folder. Use the pdf format for figures and you can make all the adjustments to figure size in the .tex file.
+
+The tables included in the template are pdf's. You can also create tables directly in tex files rather than having to include a pdf.
 	         
