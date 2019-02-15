@@ -29,7 +29,7 @@ bibtex conclusions
 
 run "pdflatex thesis" 3-4 more times. Each time you run this, parts of the table of contents get built.</br>
 
-A pdf file will be created in the directory. ya est‡. The nice thing about this method is that you can quickly rerun files if you notice a mistake or want to see how small adjustments look.</br>
+A pdf file will be created in the directory. ya está. The nice thing about this method is that you can quickly rerun files if you notice a mistake or want to see how small adjustments look.</br>
 
 2) open the app "texshop" that was installed with MacTeX. Open the "thesis.tex" file in the drop down. Press "typeset". This will create a document but you'll notice the citations are all question marks. To fix this, open each of the tex files that cite references. Click the "Typeset" option from the menu in the top bar. It'll dropdown and then click "bibtex". It won't look like anything happened but an .aux file will be formed to fix citations. Now go back to the "thesis.tex" file and click typeset. If the table of contents looks strange, click typeset a few more times.</br>
 
